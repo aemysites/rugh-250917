@@ -1,0 +1,181 @@
+{
+  "fragments": [
+    {
+      "name": "nav",
+      "path": "/nav",
+      "totalBoxes": 1,
+      "instances": [
+        {
+          "url": "https://www.aemshop.net/apparel",
+          "urlHash": "34374bf72dfd50482af0c10d9aa7006d98929c97",
+          "uuid": "34374bf7-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
+        },
+        {
+          "url": "https://www.aemshop.net/products/llama-plush-shortie/ADB336",
+          "urlHash": "67fb0a01f4ee0562bc2214ff891224e401079174",
+          "uuid": "67fb0a01-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
+        }
+      ],
+      "styles": {
+        "height": 64
+      }
+    },
+    {
+      "name": "footer",
+      "path": "/footer",
+      "totalBoxes": 1,
+      "instances": [
+        {
+          "url": "https://www.aemshop.net/apparel",
+          "urlHash": "34374bf72dfd50482af0c10d9aa7006d98929c97",
+          "uuid": "34374bf7-06-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
+        },
+        {
+          "url": "https://www.aemshop.net/products/llama-plush-shortie/ADB336",
+          "urlHash": "67fb0a01f4ee0562bc2214ff891224e401079174",
+          "uuid": "67fb0a01-06-a507e040135207256fc0c4fd07f12510b5a9e729",
+          "xpath": "/html[1]/body[1]/footer[1]"
+        }
+      ],
+      "styles": {
+        "background": "rgb(250, 250, 250) none repeat scroll 0% 0% / auto padding-box border-box"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Cards",
+      "cluster": 1,
+      "source": "Cards",
+      "target": "Cards (cards1)",
+      "key": "cards1",
+      "instances": [
+        {
+          "url": "https://www.aemshop.net/apparel",
+          "urlHash": "34374bf72dfd50482af0c10d9aa7006d98929c97",
+          "uuid": "34374bf7-02-ca8712c1b8a873222ab45e96f65d719ac9cb297b",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "header",
+      "cluster": 2,
+      "source": "Header",
+      "target": "Header (header2)",
+      "key": "header2",
+      "instances": [
+        {
+          "url": "https://www.aemshop.net/apparel",
+          "urlHash": "34374bf72dfd50482af0c10d9aa7006d98929c97",
+          "uuid": "34374bf7-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
+        },
+        {
+          "url": "https://www.aemshop.net/products/llama-plush-shortie/ADB336",
+          "urlHash": "67fb0a01f4ee0562bc2214ff891224e401079174",
+          "uuid": "67fb0a01-00-b2c8ec8cc7206114599cd049698cc67e0e048d63",
+          "xpath": "/html[1]/body[1]/header[1]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 3,
+      "source": "Columns block",
+      "target": "Columns block (columns3)",
+      "key": "columns3",
+      "instances": [
+        {
+          "url": "https://www.aemshop.net/products/llama-plush-shortie/ADB336",
+          "urlHash": "67fb0a01f4ee0562bc2214ff891224e401079174",
+          "uuid": "67fb0a01-01-1202332ce7cd8307efd803d8735fefc8bda3f610",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 4,
+      "source": "Columns",
+      "target": "Columns (columns4)",
+      "key": "columns4",
+      "instances": [
+        {
+          "url": "https://www.aemshop.net/products/llama-plush-shortie/ADB336",
+          "urlHash": "67fb0a01f4ee0562bc2214ff891224e401079174",
+          "uuid": "67fb0a01-02-ca8712c1b8a873222ab45e96f65d719ac9cb297b",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]"
+        }
+      ]
+    }
+  ],
+  "outliers": [
+    {
+      "url": "https://www.aemshop.net/apparel",
+      "urlHash": "34374bf72dfd50482af0c10d9aa7006d98929c97",
+      "uuid": "34374bf7-01-1202332ce7cd8307efd803d8735fefc8bda3f610",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]"
+    },
+    {
+      "url": "https://www.aemshop.net/apparel",
+      "urlHash": "34374bf72dfd50482af0c10d9aa7006d98929c97",
+      "uuid": "34374bf7-03-b698a1b53e0931b19c76b6b2e292c001aa93fb5f",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[3]/div[1]/div[1]/section[1]/div[1]"
+    },
+    {
+      "url": "https://www.aemshop.net/apparel",
+      "urlHash": "34374bf72dfd50482af0c10d9aa7006d98929c97",
+      "uuid": "34374bf7-04-40525d01952d7ff0443ad2833c77cda9a3a00985",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[3]/div[1]/div[1]/section[1]/div[2]/div[1]/span[4]"
+    },
+    {
+      "url": "https://www.aemshop.net/apparel",
+      "urlHash": "34374bf72dfd50482af0c10d9aa7006d98929c97",
+      "uuid": "34374bf7-05-6e104f304e8c3775dda599659d95006731a1a433",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[4]"
+    },
+    {
+      "url": "https://www.aemshop.net/apparel",
+      "urlHash": "34374bf72dfd50482af0c10d9aa7006d98929c97",
+      "uuid": "34374bf7-06-a507e040135207256fc0c4fd07f12510b5a9e729",
+      "xpath": "/html[1]/body[1]/footer[1]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://www.aemshop.net/products/llama-plush-shortie/ADB336",
+      "urlHash": "67fb0a01f4ee0562bc2214ff891224e401079174",
+      "uuid": "67fb0a01-03-9125ff314aefc17364a00ffdd2c54a5dd0c25aea",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[3]"
+    },
+    {
+      "url": "https://www.aemshop.net/products/llama-plush-shortie/ADB336",
+      "urlHash": "67fb0a01f4ee0562bc2214ff891224e401079174",
+      "uuid": "67fb0a01-04-adf00117b6d9c30d436257c7d24dcb426ef9c71e",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[4]/div[1]/div[1]/section[1]/div[1]"
+    },
+    {
+      "url": "https://www.aemshop.net/products/llama-plush-shortie/ADB336",
+      "urlHash": "67fb0a01f4ee0562bc2214ff891224e401079174",
+      "uuid": "67fb0a01-05-eeae87e441e63c8ae80d27717ad0b9d691131bd3",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[4]/div[1]/div[1]/section[1]/div[2]/div[1]/span[4]"
+    },
+    {
+      "url": "https://www.aemshop.net/products/llama-plush-shortie/ADB336",
+      "urlHash": "67fb0a01f4ee0562bc2214ff891224e401079174",
+      "uuid": "67fb0a01-06-a507e040135207256fc0c4fd07f12510b5a9e729",
+      "xpath": "/html[1]/body[1]/footer[1]",
+      "section": "section-1"
+    }
+  ],
+  "sections": [
+    {
+      "name": "section-1",
+      "background": "rgb(250, 250, 250) none repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 2
+    }
+  ]
+}

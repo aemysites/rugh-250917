@@ -1,0 +1,27 @@
+{
+  "originUrl": "https://bulk.com",
+  "aborted": false,
+  "urls": [
+    {
+      "url": "https://www.bulk.com/uk/products/pure-whey-protein/bpb-wpc8-0000",
+      "source": "MANUAL",
+      "targetPath": "/uk/products/pure-whey-protein/bpb-wpc8-0000",
+      "id": "1e341807f217f89449f237f34897b2c3a6dcd7ef"
+    }
+  ],
+  "lastCrawled": "MANUAL",
+  "crawlOptions": {
+    "timeout": 64800000,
+    "inclusionPatterns": [],
+    "exclusionPatterns": [],
+    "limit": 100,
+    "sameDomain": true,
+    "keepHash": false,
+    "strategy": "manual",
+    "strategiesAttempted": [
+      "MANUAL"
+    ]
+  },
+  "extractionErrors": [],
+  "errorCountMessage": "none"
+}
